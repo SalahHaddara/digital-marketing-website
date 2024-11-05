@@ -104,12 +104,11 @@
     padding: 100px 20px;
     background: linear-gradient(30deg, #21DADB, #35BBDF);
     color: white;
-}
-
-.stats > div {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    flex-wrap: wrap;
+    row-gap: 50px;
 }
 
 .stat-number {
@@ -148,4 +147,18 @@ footer {
     background: #404040;
     color: white;
     text-align: center;
+}
+
+@media (max-width: 800px) {
+    .nav-links {
+        display: none
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
 }
