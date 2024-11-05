@@ -76,6 +76,11 @@
     font-size: 16px;
 }
 
+.button-small {
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
 .section {
     padding: 100px 20px;
 }
@@ -122,4 +127,36 @@
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.contact {
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #35BBDF, #4D94E6);
+    color: white;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+}
+
+footer {
+    padding: 20px;
+    background: #404040;
+    color: white;
+    text-align: center;
 }
