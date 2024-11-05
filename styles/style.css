@@ -75,3 +75,31 @@
     border-radius: 30px;
     font-size: 16px;
 }
+
+.services {
+    padding: 100px 20px;
+}
+
+.services > h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #4D94E6;
+}
+
+.text-white {
+    color: white;
+}
+
+.services > div {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+}
+
+.service-card {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
